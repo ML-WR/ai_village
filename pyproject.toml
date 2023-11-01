@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ai-village"
+version = "0.1.0"
+description = ""
+authors = ["Ryo Watanabe <ryopoaro03290024@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "1.4"
+matplotlib = "^3.8.0"
+scikit-learn = "1.3.0"
+skops = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
